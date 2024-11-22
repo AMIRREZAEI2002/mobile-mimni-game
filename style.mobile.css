@@ -1,0 +1,75 @@
+.main{
+    background-image: url("img/backgifgame.gif");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+body{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500; /* یا هر مقدار بین 400 تا 700 */
+    font-style: normal;
+    overflow: hidden;
+}
+.mybtn{
+    background-color: yellow;
+    border: 0;
+    color: black;
+}
+.controlhandler{
+    background-color: rgb(93, 94, 95);
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.circle{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+}
+.palneis{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.fireis{
+    width: 5px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.attakeris{
+    background-image: url("img/attaketfinal.gif");
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%) rotate(180deg);
+    z-index: 0;
+
+}
+.scorediv{
+    height: 30px;
+    width: 70px;
+    background-color: goldenrod;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
